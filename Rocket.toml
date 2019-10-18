@@ -1,0 +1,24 @@
+[development]
+address = "0.0.0.0"
+port = 3000
+workers = 2
+keep_alive = 5
+log = "normal"
+
+[staging]
+address = "0.0.0.0"
+port = 8000
+workers = 2
+keep_alive = 5
+log = "normal"
+#secret_key = bc5002fd22f4a29760b24ac552c7
+#limits = 32768
+
+[production]
+address = "0.0.0.0"
+port = 8000
+workers = 2
+keep_alive = 5
+log = "critical"
+#secret_key = bc5002ac552c7fd22f4a29760b24
+#limits = 32768
